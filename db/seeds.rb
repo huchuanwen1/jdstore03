@@ -14,3 +14,24 @@ u.password_confirmation = "123456"   # 最少要六码
 
 u.is_admin = true
 u.save
+#
+Product.create!(title: "ds",
+description: "book",
+price: 39,
+quantity: 3,
+image: open("http://g.search1.alicdn.com/img/i1/100579204/TB2y.7Pj8HH8KJjy0FbXXcqlpXa_!!0-saturn_solar.jpg_220x220.jpg")
+)
+
+Product.create!(title:"为答复",
+description: "ag",
+price:42,
+quantity:2,
+image: open("http://g.search2.alicdn.com/img/i2/127537652/TB2bB8IbfBNTKJjy1zdXXaScpXa_!!0-saturn_solar.jpg_220x220.jpg")
+)
+
+Product.create!(title:"dfs",
+description: "花生米",
+price: 34,
+quantity: 12,
+image: open("http://g.search2.alicdn.com/img/i2/40220179/TB2PWysb3oSMeJjSspaXXbMOFXa_!!0-saturn_solar.jpg_220x220.jpg")
+)
