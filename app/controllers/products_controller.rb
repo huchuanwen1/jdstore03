@@ -1,7 +1,10 @@
 class ProductsController < ApplicationController
+  impressionist :actions=>[:show]
+
   def index
     @products = Product.all.order("position ASC")
   end
+
     def show
       @product = Product.find(params[:id])
     end
